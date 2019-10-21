@@ -500,19 +500,14 @@ section {
 .grid-sizer,
 .grid-item {
   width: 32%; 
-  transform: rotate(90deg);
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  transform: rotate(90deg);
+  
 }
 
 .grid-item {
   margin-bottom: 20px;
   border-radius: 5px;
   overflow: hidden; 
-  transform: rotate(90deg);}
+  }
   .grid-item:hover .grid-info {
     top: 50%;
     opacity: 1;
@@ -529,7 +524,7 @@ section {
   left: 0;
   transition: all .3s ease;
   opacity: 0; 
-  transform: rotate(90deg);} /**/
+  } /**/
   
 
 .grid-item-wrapper:hover:before {
