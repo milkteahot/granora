@@ -4,7 +4,8 @@
  */
 html, body {
   width: 100%;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+ }
 
 body {
   font-family: 'Lato', sans-serif;
@@ -91,8 +92,8 @@ section {
 
 .jumbotron {
   color: #fff;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 100px;
+  padding-bottom: 50px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -100,7 +101,7 @@ section {
   border-radius: 0;
   margin-bottom: 0;
   overflow: hidden;
-  min-height: 100vh; }
+  min-height: 20vh; }
   @media (max-width: 767px) and (orientation: landscape) {
     .jumbotron {
       min-height: 500px; } }
@@ -118,9 +119,9 @@ section {
     right: 0;
     background: #ff00cc;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #333399, #ff00cc);
+    background: -webkit-linear-gradient(135deg, rgb(241, 193, 16), rgba(255, 22, 22, 0.84));
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #333399, #ff00cc);
+    background: linear-gradient(135deg, rgb(241, 193, 16), rgba(255, 22, 22, 0.84));
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
   .jumbotron h1 {
     line-height: .9;
@@ -149,9 +150,9 @@ section {
     right: 0;
     background: #ff00cc;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #333399, #ff00cc);
+    background: -webkit-linear-gradient(135deg, rgb(241, 193, 16), rgba(255, 22, 22, 0.84));
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #333399, #ff00cc);
+    background: linear-gradient(135deg, rgb(241, 193, 16), rgba(255, 22, 22, 0.84));
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
   .overlay.bg-white {
     color: #000; }
@@ -735,22 +736,22 @@ section {
     top: 0;
     height: auto;
     width: 100%;
-    background: #ff00cc;
+    background: #FF665A;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #333399, #ff00cc);
+    background: -webkit-linear-gradient(45deg, #e94d53, #fe6659);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #333399, #ff00cc);
+    background: linear-gradient(45deg, #e94d53, #fe6659);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     z-index: 11; }
   #header-navbar {
     padding-top: 15px !important;
     padding-bottom: 15px !important; }
   .navbar-transparent .navbar-collapse {
-    background: #ff00cc;
+    background: #ed726a;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #333399, #ff00cc);
+    background: -webkit-linear-gradient(45deg, #e94d53, #fe6659);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #333399, #ff00cc);
+    background: #ed726a;
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 10px; } }
 

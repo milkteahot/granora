@@ -1,0 +1,29 @@
+.screen {
+    width: 33vw;
+    min-width: 350px;
+    @media screen {
+        min-width: 700px;
+    }
+}
+
+.row {
+    justify-content: center;
+}
+
+.footer-ul {
+    display: flex;
+    list-style: none;
+}
+
+.address {
+    font-size: 12px;
+    max-width: 640px;
+    margin: 10px;
+    text-align: center;
+    word-break: keep-all;
+}
+
+.span {
+    justify-content: space-between;
+    margin-right: 10px;
+}
