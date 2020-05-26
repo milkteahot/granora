@@ -40,7 +40,8 @@ a:hover {
   color: #333399; }
 
 img {
-  max-width: 100%; }
+  max-width: 100%; 
+}
 
 .bg-fixed {
   background-size: cover; }
