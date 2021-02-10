@@ -1,0 +1,205 @@
+:root {
+  /* Color */
+  --white-color: #fff;
+  --black-color: #140a00;
+  --blue-color: #045fd4;
+  --red-color: #ff0000;
+  --grey-dark-color: #909090;
+  --grey-light-color: #e0e0e0;
+
+  /* Size */
+  --padding: 12px;
+  --ex_padding: 20px;
+  --in_padding: 15px;
+  --avatar-size: 36px;
+
+  /* Font Size */
+  --font-large: 18px;
+  --font-medium: 14px;
+  --font-small: 12px;
+  --font-micro: 10px;
+}
+
+@font-face {
+  font-family: "NanumSquareRound";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bazzi";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/Bazzi.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "NanumSquareRound", sans-serif;
+  color: #000000;
+}
+
+.background {
+  background-color: black;
+  height: 85vh;
+}
+
+header {
+  /* height: 56px;
+    display: flex; */
+  align-items: center;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  width: 20%;
+  margin: 43px 0 10px 62vw;
+}
+
+.header-content-wrapper {
+  width: 980px;
+  position: relative;
+  display: flex;
+  transform: translateX(-50%);
+  left: 50%;
+}
+
+.container {
+  background-color: #fff;
+  width: 96vw;
+  height: 83vh;
+  border: 6px solid #000000;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  background-color: none;
+}
+
+.font-wrapper {
+}
+
+article {
+  padding-left: 14rem;
+  padding-top: 8rem;
+  display: flex;
+}
+
+h1 {
+  font-size: 4.5rem;
+  font-weight: 800;
+  font-family: "NanumSquareRound", sans-serif;
+  line-height: 1.33;
+  min-width: 37vw;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.subtext {
+  font-size: 1.8rem;
+  font-family: "Bazzi";
+  font-weight: 400;
+}
+
+.logo-h1 {
+  height: 120px;
+  margin: 3rem 0 3rem 0;
+}
+
+.img1 {
+  width: 45%;
+  margin-top: 66px;
+  margin-left: 280px;
+}
+
+.img2 {
+  width: 39%;
+  margin-left: 100px;
+  position: absolute;
+  top: 233px;
+  left: 680px;
+}
+
+.website-btn {
+  border: 3px solid #000000;
+  border-radius: 50px;
+  width: 230px;
+  text-align: center;
+  line-height: 25px;
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
+  background: #000000;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  body {
+    width: 100%;
+  }
+
+  .header-content-wrapper {
+    width: 100%;
+  }
+
+  .container {
+    width: 100vw;
+  }
+
+  .content {
+    display: block;
+  }
+
+  .logo {
+    width: 20%;
+    margin: 25px 0 10px 78vw;
+  }
+
+  .img1 {
+    width: 45%;
+    margin-top: 0px;
+    margin-left: 280px;
+  }
+
+  .img2 {
+    width: 39%;
+    margin-left: 100px;
+    position: absolute;
+    top: 233px;
+    left: 680px;
+    opacity: 0%;
+    width: 0px;
+  }
+}
+
+@media (max-width: 375px) {
+  body {
+    width: 100%;
+  }
+
+  .header-content-wrapper {
+    width: 100%;
+  }
+
+  .container {
+    width: 100vw;
+  }
+
+  .content {
+    display: block;
+  }
+}
